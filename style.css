@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700;1,900&display=swap');
+/* Colors : #27374D #526D82 #9DBD2BF #DDE6ED */
+*{
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+html{
+    font-family : 'Roboto', sans-serif;
+}
+body{
+    background-color: #27374D;
+    color : #DDE6ED;
+}
+h1,h2{
+    text-align : center;
+    margin : 20px;
+}
+.row{
+    width : fit-content;
+    margin : auto;
+}
+.box{
+    cursor : pointer;
+    display : inline-block;
+    height : 200px;
+    width : 200px;
+    margin : 20px;
+    border-radius: 15px;
+    border : 10px solid black;
+}
+#green{
+    background-color: green;
+}
+#red{
+    background-color: red;
+}
+#blue{
+    background-color: blue;
+}
+#yellow{
+    background-color : yellow;
+}
+p{
+    text-align : center;
+}
+.pressed{
+    opacity : 0.5;
+    border : 10px solid white;
+}
+.wrong{
+    background-color: red;
+    opacity : 0.5;
+}
